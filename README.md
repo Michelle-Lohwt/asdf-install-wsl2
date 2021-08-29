@@ -93,7 +93,19 @@ $ asdf shell yarn 1.22.11
 ```
 
 ## Install gems
-1. Check where is your ruby and gem
+1. Check where is languages installed
+```
+$ $ type -a ruby
+ruby is /home/<user>/.asdf/shims/ruby
+
+$ type -a node
+node is /home/<user>/.asdf/shims/node
+
+$ type -a yarn
+yarn is /home/<user>/.asdf/shims/yarn
+yarn is /mnt/c/Program Files (x86)/Yarn/bin/yarn
+```
+2. Check whic ruby and gems your directory is referring to (in case you have more than ruby installed)
 ```
 $ which ruby
 /home/<user>/.asdf/shims/ruby
