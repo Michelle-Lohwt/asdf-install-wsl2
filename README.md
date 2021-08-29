@@ -5,6 +5,16 @@ Update Date: 29/8/2021 <br>
 Created Date: 29/8/2021 <br>
 
 ---
+## Table of Contents
+1. [What is WSL2](https://github.com/Michelle-Lohwt/asdf-install-wsl2#what-is-wsl2)
+2. [What is asdf](https://github.com/Michelle-Lohwt/asdf-install-wsl2#what-is-asdf)
+3. [Install WSL2](https://github.com/Michelle-Lohwt/asdf-install-wsl2#install-wsl2)
+4. [Before installing asdf](https://github.com/Michelle-Lohwt/asdf-install-wsl2#before-installing-asdf)
+5. [Install asdf](https://github.com/Michelle-Lohwt/asdf-install-wsl2#install-wsl2)
+6. [Add plugins](https://github.com/Michelle-Lohwt/asdf-install-wsl2#add-plugins)
+7. [Install language](https://github.com/Michelle-Lohwt/asdf-install-wsl2#add-plugins)
+8. [Install gems](https://github.com/Michelle-Lohwt/asdf-install-wsl2#install-gems)
+9. [References](https://github.com/Michelle-Lohwt/asdf-install-wsl2#install-gems)
 
 ## What is WSL2
 Read [Microsoft WSL2 Documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
