@@ -35,7 +35,8 @@ $ PS C:\Users\>wsl
 # Go to root directory
 $ <user_name>: cd /
 ```
-4. Do this to get dependencies for wsl2 (else you might got error: BUILD FAILED (Ubuntu 20.04 using ruby-build 20210804)) <br>
+4. Do this to get dependencies for wsl2 (else you might got error when installing ruby: <br>
+`BUILD FAILED (Ubuntu 20.04 using ruby-build 20210804)`<br>
 For more information related to solving this problem: read [here](https://discuss.rubyonrails.org/t/installing-rails-on-ubuntu-20-04-showing-build-failed-error/75642/4)
 ```
 $ sudo apt-get update
@@ -50,10 +51,6 @@ $ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
 ```
 2. Add `. $HOME/.asdf/asdf.sh` and `. $HOME/.asdf/completions/asdf.bash` in the end of `.bashrc` file
 3. Call `code ~/.bashrc` in your terminal
-
-Starting from here, we use these 2 videos as main references:
-[Installing asdf and using it to install Go, Python & Terraform](https://www.youtube.com/watch?v=njM3-eejlho)
-[Installing Ruby on Rails Using asdf](https://www.youtube.com/watch?v=Ji2jhj7t0bk&t=317s)
 
 ## Add plugins
 ```
@@ -89,7 +86,7 @@ $ asdf shell yarn 1.22.11
 ```
 $ asdf global ruby 3.0.2
 $ asdf global nodejs 16.8.0
-$ asdf shell yarn 1.22.11
+$ asdf global yarn 1.22.11
 ```
 
 ## Install gems
