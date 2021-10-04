@@ -1,5 +1,7 @@
 # Install asdf (ruby, nodejs and yarn) in WSL2
-This repository serves to help those who need to install `asdf` using `WSL2` and we will be installing `ruby`, `nodejs` and `yarn` using `asdf`<br><br>
+- This repository serves to help those who need to install `asdf` using `WSL2` and we will be installing `ruby`, `nodejs` and `yarn` using `asdf`
+- You may find the article about this repository at [dev.to](https://dev.to/michellelwt/install-asdf-ruby-nodejs-and-yarn-in-wsl2-207o)
+
 Author: Michelle Loh <br>
 Update Date: 31/8/2021 <br>
 Created Date: 29/8/2021 <br>
